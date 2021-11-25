@@ -13,7 +13,7 @@ const init = async () => {
     options: {
       payload: {
         allow: ["image/jpeg"],
-        maxBytes: 512000,
+        maxBytes: 1000000,
         parse: true,
         output: "file",
       },
